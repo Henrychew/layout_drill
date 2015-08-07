@@ -1,0 +1,195 @@
+.container {
+  /*
+    If you have a block-level element of a certain width, margin: 0 auto;
+    will how you center it inside its parent container.
+    See: http://bluerobot.com/web/css/center1.html
+
+    Don't change the container width.
+  */
+  margin: 0 auto;
+  width: 720px;
+}
+
+ {
+
+}
+
+body{
+    background-image: url("http://www.mrwallpaper.com/wallpapers/forest-trees-waterfall.jpg");
+    background-repeat:no-repeat;
+    background-size:auto;
+
+}
+.background {
+  background-color: black;
+  text-align: left;
+  color: white;
+  padding: 8px
+
+
+}
+
+.white {
+  color:white;
+  padding:40px;
+  font-size: 18px;
+
+}
+
+.word {
+  position:relative;
+  left:5%;
+}
+
+.blank{
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.content{
+  color: black;
+  font-size: 18px;
+  padding: 5px;
+  position:relative;
+  left: 0%;
+}
+
+.mid{
+  margin:8px;
+  padding:12px;
+
+}
+
+
+
+.pull-right{
+  float:right;
+  padding: 15px;
+
+}
+
+
+.buzzer{
+  font-size: :50px;
+  position: relative;
+  width: 500
+  left: 0%;
+
+}
+
+.change-1{
+  background-color: black;
+
+
+}
+
+.topic{
+  position: relative;
+  left:0%;
+
+}
+
+.feature {
+  background-color: white;
+}
+
+.feature img {
+  position: relative;
+  left: 3%;
+}
+
+
+.row{
+  display: flex;
+  position: relative;
+  left:12%;
+
+}
+
+
+
+.col-zip{
+  width: 50%;
+}
+
+
+.zap img{
+  position:relative;
+  left:60%;
+
+}
+
+.col-zap{
+   width:50%;
+   position:relative;
+   left:15%;
+
+
+}
+
+.row1{
+  display:flex;
+  position: relative;
+
+
+}
+
+table, dd {
+  text-align: center;
+  margin: 40px;
+  border: 2px solid black;
+  border-style: solid;
+  padding:40px;
+  width: 50%
+
+}
+
+.call{
+  text-align: center;
+  margin: 8;
+  padding: 20px;
+
+
+}
+
+table, tr, td{
+  text-align: center;
+  margin: 8px;
+  border: 1px solid black;
+  border-style: solid;
+  padding:20px;
+  width: 30%
+}
+
+#pricing {
+  padding: 5px;
+  width: 1450px;
+  margin: 20px auto;
+}
+
+.left-column {
+  width: 446px;
+  float: left;
+  padding: 5px 15px;
+}
+
+.center-column {
+  width: 450px; /* Account for margins + border values */
+  float: left;
+  padding: 5px 15px;
+  margin: 0px 5px 5px 5px;
+}
+
+.right-column {
+  width: 426px;
+  padding: 5px 15px;
+  float: left;
+}
+
+#about{
+  padding: 15px;
+  width: 1250px;
+  margin: 20px auto;
+
+}
